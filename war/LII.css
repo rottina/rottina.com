@@ -182,46 +182,60 @@ a.ditty {
   color: rgb(255,255,255);
 }
 a.cimdef {
-  border-top: .1em solid rgb(16, 112, 193);
-  background: rgb(50, 139, 216);
-  color: rgb(255,255,255);
+  border-top: .1em solid rgb(0, 0, 9);
+  background: rgb(0, 21, 21);
+  color: rgb(173,208,255);
 }
 
 .social {
   display: inline-block;
-  width: 4rem;
-  height: 4rem;
+  width: 2.5rem;
+  height: 2.5rem;
   background: transparent;
-  margin: 0 1rem 0 0;
+  margin: 0 2.5rem 0 0;
+  background-size: contain;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid transparent;
 }
 
-.email {
-  background-image: url('/img/social/mail.svg');
-}
-.twitter {
-  background-image: url('/img/social/twitter.svg');
-}
-.github {
-  background-image: url('/img/social/github.svg');
-}
-.instagram {
-  background-image: url('/img/social/instagram.svg');
-}
-.linkedin {
-  background-image: url('/img/social/linkedin.svg');
-}
-.pinboard {
-  background-image: url('/img/social/pinboard.svg');
-}
+/* https://simpleicons.org/ */
+.gmail { background-image: url('/img/social/gmail.svg'); }
+.android { background-image: url('/img/social/android.svg'); }
+.twitter { background-image: url('/img/social/twitter.svg'); }
+.instagram { background-image: url('/img/social/instagram.svg'); }
+.github { background-image: url('/img/social/github.svg'); }
+.pinboard { background-image: url('/img/social/pinboard.svg'); }
+.youtube { background-image: url('/img/social/youtube.svg'); }
+.paypal { background-image: url('/img/social/paypal.svg'); }
+.linkedin { background-image: url('/img/social/linkedin.svg'); }
 
-@media screen and (max-width: 600px) {
+.gmail:hover { border-bottom: 2px solid #D14836;}
+.android:hover { border-bottom: 2px solid #A4C639;}
+.twitter:hover {border-bottom: 2px solid #1DA1F2;}
+.instagram:hover {border-bottom: 2px solid #000000;}
+.github:hover {border-bottom: 2px solid #171515;}
+.pinboard:hover {border-bottom: 2px solid #0202e0;}
+.youtube:hover {border-bottom: 2px solid #FF0000;}
+.paypal:hover {border-bottom: 2px solid #00457C;}
+.linkedin:hover {border-bottom: 2px solid #0077B5;}
+
+@media screen and (max-width: 415px) {
 
   main {
     width: 92vw;
   }
-
+  aside {
+    margin-left: -38px;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
   #flex {
     flex-direction: column;
+  }
+  .social {
+    margin: 0 1.67rem 0 0;
   }
 
 }

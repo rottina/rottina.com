@@ -189,14 +189,32 @@ a.cimdef {
 
 .social {
   display: inline-block;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   background: transparent;
   margin: 0 2.5rem 0 0;
   background-size: contain;
-  background-position: 0 50%;
+  background-position: 0 0;
   background-repeat: no-repeat;
-  border-bottom: 2px solid transparent;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
 
 /* https://simpleicons.org/ */
@@ -209,16 +227,7 @@ a.cimdef {
 .youtube { background-image: url('/img/social/youtube.svg'); }
 .paypal { background-image: url('/img/social/paypal.svg'); }
 .linkedin { background-image: url('/img/social/linkedin.svg'); }
-
-.gmail:hover { border-bottom: 2px solid #D14836;}
-.android:hover { border-bottom: 2px solid #A4C639;}
-.twitter:hover {border-bottom: 2px solid #1DA1F2;}
-.instagram:hover {border-bottom: 2px solid #000000;}
-.github:hover {border-bottom: 2px solid #171515;}
-.pinboard:hover {border-bottom: 2px solid #0202e0;}
-.youtube:hover {border-bottom: 2px solid #FF0000;}
-.paypal:hover {border-bottom: 2px solid #00457C;}
-.linkedin:hover {border-bottom: 2px solid #0077B5;}
+.medium { background-image: url('/img/social/medium.svg'); }
 
 @media screen and (max-width: 415px) {
 

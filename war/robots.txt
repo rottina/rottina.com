@@ -1,4 +1,0 @@
-# robots.txt for https://rottina.com/
-
-User-agent: *
-Disallow: /

@@ -161,9 +161,9 @@ a.xtv {
   background: rgb(200, 10, 20);
   color: rgb(255,255,255);
 }
-a.gcity {
-  border-top: .1em solid rgb(80, 80, 90);
-  background: linear-gradient(90deg, #0039a6 0%, #0039a6 25%, #ff6319 25%, #ff6319 50%, #fccc0a 50%, #fccc0a 75%, #6cbe45 75%, #6cbe45 100%);
+a.wiki {
+  border-top: .1em solid rgb(10, 10, 10);
+  background: rgb(36 42 46);
   color: rgb(255,255,255);
 }
 a.album {

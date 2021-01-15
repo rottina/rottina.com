@@ -70,7 +70,6 @@ h2, h3, h4 {
   font-style: normal;
 }
 
-
 h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.25rem;
@@ -220,7 +219,6 @@ li a {
 /* https://simpleicons.org/ */
 .gmail { background-image: url('gmail.svg'); }
 .twitter { background-image: url('twitter.svg'); }
-.instagram { background-image: url('instagram.svg'); }
 .github { background-image: url('github.svg'); }
 .linkedin { background-image: url('linkedin.svg'); }
 
@@ -240,23 +238,6 @@ li a {
   }
   .social {
     margin: 0 1.67rem 0 0;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-
-  h2 {
-    width: 93%;
-  }
-
-  main {
-    margin-top: 10rem;
-    width: 92vw;
-  }
-
-  #flex {
-    flex-direction: column;
   }
 
 }

@@ -1,1 +1,26 @@
-{}
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "rottina.com",
+  "description": "Source for [rottina.com](http://rottina.com)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rottina/rottina.com.git"
+  },
+  "keywords": [
+    "rottina"
+  ],
+  "author": "Mike Rottina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rottina/rottina.com/issues"
+  },
+  "homepage": "https://github.com/rottina/rottina.com#readme"
+}

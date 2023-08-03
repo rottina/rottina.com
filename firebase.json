@@ -11,7 +11,7 @@
     {
       "source": "/wiffleball/**",
       "destination": "https://web.archive.org/web/20021022190712/http://rottina.com/wiffleball/",
-      "type": 301
+      "type": 302
     }
   ],
   "storage": {

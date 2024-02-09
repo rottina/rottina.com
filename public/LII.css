@@ -70,7 +70,7 @@ aside {
   background-image: url('Mike.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  cursor: pointer;
+  cursor: grabbing;
   display: block;
   float: left;
   height: 10rem;
@@ -108,7 +108,13 @@ p {
 }
 
 mark {
+  cursor: pointer;
   background-color: rgba(0, 78, 255, .08);
+}
+
+mark:nth-child(2) {
+  background-color: rgba(0, 78, 255, .08);
+  cursor: help;
 }
 
 mark:nth-child(3) {
@@ -148,7 +154,7 @@ mark:nth-child(3) {
 }
 
 .flex-item i {
-  color: rgb(69, 124, 201);
+  color: rgba(60, 60, 60, 1);
   font-style: oblique;
 }
 
@@ -229,9 +235,10 @@ li a {
 
 /* https://simpleicons.org/ */
 .gmail { background-image: url('gmail.svg'); }
-.twitter { background-image: url('twitter.svg'); }
+.x { background-image: url('x.svg'); }
 .github { background-image: url('github.svg'); }
 .linkedin { background-image: url('linkedin.svg'); }
+.instagram { background-image: url('instagram.svg'); }
 
 @media screen and (max-width: 415px) {
 

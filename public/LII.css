@@ -188,9 +188,9 @@ a.album {
   color: var(--ro-white);
 }
 a.boom {
-  border-top: .1em solid rgb(80, 80, 90);
-  background: rgb(131, 134, 134);
-  color: var(--ro-white);
+  border-top: .1em solid rgb(174, 174, 174);
+  background: rgb(200, 200, 200);
+  color: var(--ro-black);
 }
 a.ditty {
   border-top: .1em solid var(--ro-black);

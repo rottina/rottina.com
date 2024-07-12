@@ -1,0 +1,139 @@
+:root {
+  --blur: 1px;
+  --contrast: 1.05;
+  --brightness: 33%;
+  --dropshadow: 20px 0 0 black;
+  --grayscale: 0.99;
+  --hue-rotate: 20deg;
+  --invert: 0%;
+  --opacity: 90%;
+  --saturate: 100%;
+  --sepia: 0;
+}
+
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+    url('Mona-Sans.woff2') format('woff2 supports variations'),
+    url('Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+html {
+  font-family: 'Mona Sans';
+}
+
+.black { background-color: #222; }
+.orange { background-color: #ffaf00; }
+.gray { background-color: #838686; }
+.blue { background-color: #c8e4f9; }
+.purple { background-color: #5531db; }
+
+#sentimental {
+  filter: blur(var(--blur)) brightness(var(--brightness)) contrast(var(--contrast)) drop-shadow(var(--dropshadow)) grayscale(var(--grayscale)) hue-rotate(var(--hue-rotate)) invert(var(--invert)) opacity(var(--opacity)) saturate(var(--saturate)) sepia(var(--sepia)); 
+}
+
+body {
+  background-color: #2f2f2f;
+  color: #2f2f2f;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-variant-caps: unicase;
+  font-weight: 900;
+  line-height: 0;
+  text-align: center;
+  text-shadow: 0.1rem 0.1rem 0 #fff;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-variant-caps: unicase;
+  font-weight: 700;
+  line-height: 0;
+  text-shadow: 0.05rem 0.05rem 0 #fff;
+}
+
+p {
+  font-size: .85rem;
+  line-height: 1.33;
+  margin: 0 auto;
+  padding: 0.5rem;
+  text-align: center;
+  width: 329px;
+}
+
+aside {
+  height: 20px;
+  font-size: .8rem;
+  color: #fd9dff;
+  left: 1rem;
+  position: absolute;
+  top: 1rem;
+  width: 100vw;
+  font-family: monospace;
+  font-weight: 800;
+  text-shadow: 1px 1px 0 #000;
+}
+
+video {
+  height: 100vh;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+main {
+  background-color: rgba(255, 253, 251, 1);
+  border-radius: .09rem;
+  border: .33rem solid #232;
+  box-shadow: 0.33rem 0.33rem 0.2rem #121;
+  height: auto;
+  left: 4.25rem;
+  min-height: 500px;
+  opacity: .9;
+  padding: .5rem;
+  position: absolute;
+  top: 2rem;
+  width: 420px;
+  z-index: 23969;
+}
+
+.box {
+  display: flex;
+  height: 12rem;
+  margin: 5px 0 60px 0;
+  width: 100%;
+}
+
+.box-sm {
+  cursor: pointer;
+  flex-grow: 1;
+  height: 12rem;
+  margin: 0;
+  transition: all .69s ease-in-out;
+}
+
+.box-sm:hover {
+  flex-grow: 8;
+}
+
+@media (width <= 500px) {
+  main {
+    height: auto;
+    left: 0.6rem;
+    min-height: 700px;
+    top: 3rem;
+    width: 80.5vw;
+  }
+}
+

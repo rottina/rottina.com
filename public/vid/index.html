@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>rottina.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="vid.css">
+    <meta name="description" content="rottina.com">
+    <meta name="robots" content="noindex nofollow noarchive nosnippet">
+    <link rel="canonical" href="https://rottina.com/">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="ro.webmanifest">
+    <meta name="theme-color" content="#333333">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+  </head>
+
+  <body>
+    <!-- <main> 
+      <h1>rottina.com</h1>
+      <p>Hey now! You&apos;ve reached Mike&apos;s personal website.<br/>I&apos;m a people &amp; product&mdash;focused software engineering manager based in New Jersey.</p>
+
+      <h2>projects</h2>
+      <div class="box">
+        <div class="box-sm black"></div>
+        <div class="box-sm purple"></div>
+        <div class="box-sm gray "></div>
+        <div class="box-sm orange"></div>
+        <div class="box-sm blue "></div>
+      </div>
+
+      <h2>contact</h2>
+    </main> -->
+    <video id="sentimental" autoplay loop muted height="100%" width="100%">
+      <source type="video/webm" src="dadkb.webm">
+    </video>
+    <aside></aside>
+    <script>
+      const v = document.querySelector("video");
+      v.defaultMuted=true;
+      v.playbackRate=0.1;
+
+      let typed = new Typed('aside', {
+        strings: ["Hoff\'s Park", "Haddon Heights, New Jersey", "September 30, 2014", "39.87749, -75.05630", "Dad, K and B ❤️"],
+        typeSpeed: 150,
+        shuffle: false
+      });
+
+      const sound = new Howl({
+        src: ['vid.mp3'],
+        autoplay: true,
+        loop: true,
+        volume: 0.4
+      });
+    </script>
+  </body>
+
+</html>

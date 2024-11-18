@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "firebase": "^8.6.8",
+    "firebase": "^10.9.0",
     "typed.js": "^2.1.0"
   }
 }

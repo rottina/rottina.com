@@ -193,8 +193,8 @@ a.album {
   color: var(--ro-white);
 }
 a.boom {
-  border-top: .1em solid rgb(174, 174, 174);
-  background: rgb(127, 136, 135);
+  border-top: .1em solid rgb(74, 74, 74);
+  background: rgb(85, 86, 87);
   color: var(--ro-white);
 }
 a.ditty {

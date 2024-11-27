@@ -7,6 +7,11 @@
   --ro-primary: rgba(169, 33, 212, 1);
 }
 
+@font-face {
+  font-family: "Manrope";
+  src: url("Manrope-VariableFont_wght.ttf");
+}
+
 ::selection { color: var(--ro-white); background-color: var(--ro-black);}
 *, *:after, *.before { box-sizing: border-box }
 
@@ -103,7 +108,7 @@ h4 {
 
 p {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -189,8 +194,8 @@ a.album {
 }
 a.boom {
   border-top: .1em solid rgb(174, 174, 174);
-  background: rgb(200, 200, 200);
-  color: var(--ro-black);
+  background: rgb(127, 136, 135);
+  color: var(--ro-white);
 }
 a.ditty {
   border-top: .1em solid var(--ro-black);

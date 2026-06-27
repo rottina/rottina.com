@@ -2,4 +2,5 @@
 Source for [rottina.com](https://rottina.com)
 
 Run local:
+`npm install`
 `firebase serve`

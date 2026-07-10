@@ -42,6 +42,11 @@
     },
     {
       "type": "custom",
+      "label": "Billboard | Biggest No. 2's of All Time",
+      "value": "custom-unique-number-twos"
+    },
+    {
+      "type": "custom",
       "label": "Mike's Hip-Hop Joints",
       "value": "custom-unique-mike"
     },
